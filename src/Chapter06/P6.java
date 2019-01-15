@@ -52,12 +52,12 @@ public class P6 {
     }
 
     /**
-     * Convert method
+     * Money convert method
      *
-     * @param dollars command line arguments
-     * @param exchangeRate command line arguments
+     * @param dollars amount of dollars being converted
+     * @param exchangeRate rate of exchange for the money
      *
-     * @return convert
+     * @return money conversions
      */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
